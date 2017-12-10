@@ -20,15 +20,15 @@
 # -----------------------------------------------------------------------------------
 {
     'name': 'iomaq',
-    'version': '9.0.1.1',
+    'version': '9.0.1.2',
     'license': 'Other OSI approved licence',
     'category': 'Tools',
-    'summary': 'Customización Iomaq srl',
+    'summary': 'Customización IOMAQ SA',
     'description': """
 
 
-Customización Iomaq SRL
-=========================
+Customización IOMAQ SA
+======================
 """,
     'author': 'jeo Software',
     'depends': [
