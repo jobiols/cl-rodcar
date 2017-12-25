@@ -19,7 +19,7 @@
 #
 # -----------------------------------------------------------------------------
 {
-    'name': 'iomaq',
+    'name': 'Iomaq',
     'version': '9.0.1.2',
     'license': 'Other OSI approved licence',
     'category': 'Tools',
