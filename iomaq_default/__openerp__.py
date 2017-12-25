@@ -24,12 +24,6 @@
     'license': 'Other OSI approved licence',
     'category': 'Tools',
     'summary': 'Customización IOMAQ SA',
-    'description': """
-
-
-Customización IOMAQ SA
-======================
-""",
     'author': 'jeo Software',
     'depends': [
         'support_branding_jeosoft',
