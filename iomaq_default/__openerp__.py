@@ -39,6 +39,10 @@ Customización IOMAQ SA
         'purchase', 'l10n_ar_aeroo_purchase',   # compras
         'account_accountant',                   # permisos para contabilidad
         'l10n_ar_aeroo_stock',
+
+        'point_of_sale',
+        'product_unique',
+
     ],
 
     'data': [
