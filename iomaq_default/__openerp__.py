@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# -----------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 #
 #    Copyright (C) 2016  jeo Software  (http://www.jeosoft.com.ar)
 #    All Rights Reserved.
@@ -17,7 +17,7 @@
 #    You should have received a copy of the GNU Affero General Public License
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
-# -----------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 {
     'name': 'iomaq',
     'version': '9.0.1.2',
@@ -32,7 +32,7 @@ Customización IOMAQ SA
 """,
     'author': 'jeo Software',
     'depends': [
-        'support_branding_jeosoft',  # soporte de jeosoft y + modulos utilitarios
+        'support_branding_jeosoft',  # soporte de jeosoft y + modulos utilitaris noqa
 
         # aplicaciones instaladas
         'sale', 'l10n_ar_aeroo_sale',           # ventas
