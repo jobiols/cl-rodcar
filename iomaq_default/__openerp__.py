@@ -36,6 +36,7 @@
 
         'point_of_sale',
         'product_unique',
+        'account_reconciliation_menu',  # agrega boton en partner
 
     ],
 
