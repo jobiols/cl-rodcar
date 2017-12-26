@@ -1,3 +1,3 @@
 # -*- coding: utf-8 -*-
 
-from . import pos_invoice
+from . import report_controller
