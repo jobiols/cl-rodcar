@@ -29,9 +29,9 @@
         'support_branding_jeosoft',
 
         # aplicaciones instaladas
-        'sale', 'l10n_ar_aeroo_sale',           # ventas
-        'purchase', 'l10n_ar_aeroo_purchase',   # compras
-        'account_accountant',                   # permisos para contabilidad
+        'sale', 'l10n_ar_aeroo_sale',  # ventas
+        'purchase', 'l10n_ar_aeroo_purchase',  # compras
+        'account_accountant',  # permisos para contabilidad
         'l10n_ar_aeroo_stock',
 
         'point_of_sale',
@@ -48,6 +48,19 @@
     'application': True,
     'auto_install': False,
     'images': [],
+
+    'port': '8069',
+    'repos': [
+        {'usr': 'jobiols', 'repo': 'cl-iomaq', 'branch': '9.0'},
+        {'usr': 'jobiols', 'repo': 'odoo-addons', 'branch': '9.0'},
+
+    ],
+    'docker': [
+        {'name': 'aeroo', 'usr': 'jobiols', 'img': 'aeroo-docs'},
+        {'name': 'odoo', 'usr': 'jobiols', 'img': 'odoo-jeo', 'ver': '9.0'},
+        {'name': 'postgres', 'usr': 'postgres', 'ver': '9.5'},
+        # {'name': 'nginx', 'usr': 'nginx', 'ver': 'latest'}
+    ]
 }
 
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
