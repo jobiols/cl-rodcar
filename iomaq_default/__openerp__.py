@@ -62,5 +62,3 @@
         # {'name': 'nginx', 'usr': 'nginx', 'ver': 'latest'}
     ]
 }
-
-

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from openerp.addons.web.http import Controller, route, request
+from openerp.addons.web.http import route
 from openerp.addons import report
 
 
