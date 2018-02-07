@@ -52,6 +52,7 @@
     'repos': [
         {'usr': 'jobiols', 'repo': 'cl-iomaq', 'branch': '9.0'},
         {'usr': 'jobiols', 'repo': 'odoo-addons', 'branch': '9.0'},
+        {'usr': 'Vauxoo', 'repo': 'addons-vauxoo', 'branch': '9.0'},
 
     ],
     'docker': [
