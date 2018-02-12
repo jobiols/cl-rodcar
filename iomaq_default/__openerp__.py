@@ -36,7 +36,7 @@
 
         'product_unique',
         'account_reconciliation_menu',  # agrega boton en partner
-
+        'product_multi_barcode'
     ],
 
     'data': [
