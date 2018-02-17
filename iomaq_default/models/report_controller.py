@@ -4,6 +4,11 @@ from openerp.addons import report
 
 
 class ReportControllerDerived(report.controllers.main.ReportController):
+    """ En point_of_sale cuando hacemos una factura sale la de aeroo en lugar
+        de salir la odoo default
+    """
+
+    # TODO mover esto a un modulo para que se pueda reusar
 
     @route(['/report/download'], type='http', auth="user")
     def report_download(self, data, token):
