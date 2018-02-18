@@ -38,7 +38,7 @@
         'account_reconciliation_menu',  # agrega boton en partner
 #        'product_multi_barcode',
         'stock_picking_auto',  # Automatic picking when Invoice is validated.
-        'product_price_visible', # ocultar precio de costo
+        'product_price_visible',  # ocultar precio de costo
     ],
 
     'data': [
