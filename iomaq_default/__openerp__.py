@@ -40,6 +40,7 @@
         'stock_picking_auto',  # Automatic picking when Invoice is validated.
         'price_security',  #  Restringir quien ve el precio de costo
         'base_state_active',  # Deactivate US States
+        'account_fix',  # Account Fixes
     ],
 
     'data': [
