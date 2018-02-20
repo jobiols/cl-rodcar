@@ -20,7 +20,7 @@
 # -----------------------------------------------------------------------------
 {
     'name': 'Iomaq',
-    'version': '9.0.1.2',
+    'version': '9.0.1.2.0',
     'license': 'Other OSI approved licence',
     'category': 'Tools',
     'summary': 'Customización IOMAQ SA',
@@ -39,6 +39,7 @@
 #        'product_multi_barcode',
         'stock_picking_auto',  # Automatic picking when Invoice is validated.
         'price_security',  #  Restringir quien ve el precio de costo
+        'base_state_active',  # Deactivate US States
     ],
 
     'data': [
