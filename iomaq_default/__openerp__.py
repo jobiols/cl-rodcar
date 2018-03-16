@@ -41,7 +41,8 @@
         'price_security',  # Restringir quien ve el precio de costo
         'base_state_active',  # Deactivate US States
         'account_fix',  # Account Fixes
-        'account_invoice_tax_wizard' # add manual taxes on invoices
+        'account_invoice_tax_wizard', # add manual taxes on invoices
+        'account_invoice_global_discount', # descuentos globales en facturas de compra
     ],
 
     'data': [
