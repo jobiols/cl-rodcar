@@ -41,11 +41,12 @@
         'price_security',  # Restringir quien ve el precio de costo
         'base_state_active',  # Deactivate US States
         'account_fix',  # Account Fixes
-        'account_invoice_tax_wizard', # add manual taxes on invoices
-        'account_invoice_global_discount', # descuentos globales en facturas de compra
+        'account_invoice_tax_wizard',  # add manual taxes on invoices
+        'account_invoice_global_discount',  # descuentos en facturas de compra
     ],
 
     'data': [
+        'views/product_view.xml'
     ],
     'test': [
     ],
@@ -59,7 +60,7 @@
         {'usr': 'jobiols', 'repo': 'cl-iomaq', 'branch': '9.0'},
         {'usr': 'jobiols', 'repo': 'odoo-addons', 'branch': '9.0'},
         {'usr': 'Vauxoo', 'repo': 'addons-vauxoo', 'branch': '9.0'},
-#        {'usr': 'JayVora-SerpentCS', 'repo': 'SerpentCS_Contributions', 'branch': '9.0'},
+        #        {'usr': 'JayVora-SerpentCS', 'repo': 'SerpentCS_Contributions', 'branch': '9.0'},
 
     ],
     'docker': [
