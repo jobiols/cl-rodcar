@@ -19,11 +19,11 @@
 #
 # -----------------------------------------------------------------------------
 {
-    'name': 'Iomaq',
-    'version': '9.0.1.2.0',
+    'name': 'Rodcar',
+    'version': '9.0.0.0.0',
     'license': 'Other OSI approved licence',
     'category': 'Tools',
-    'summary': 'Customización IOMAQ SA',
+    'summary': 'Customización Rodcar SA',
     'author': 'jeo Software',
     'depends': [
         'support_branding_jeosoft',
@@ -36,17 +36,12 @@
 
         'product_unique',
         'account_reconciliation_menu',  # agrega boton en partner
-        'product_multi_barcode',
-        'stock_picking_auto',  # Automatic picking when Invoice is validated.
-        'price_security',  # Restringir quien ve el precio de costo
         'base_state_active',  # Deactivate US States
-        'account_fix',  # Account Fixes
         'account_invoice_tax_wizard',  # add manual taxes on invoices
-        'account_invoice_global_discount',  # descuentos en facturas de compra
     ],
 
     'data': [
-        'views/product_view.xml'
+
     ],
     'test': [
     ],
@@ -57,9 +52,9 @@
 
     'port': '8069',
     'repos': [
-        {'usr': 'jobiols', 'repo': 'cl-iomaq', 'branch': '9.0'},
+        {'usr': 'jobiols', 'repo': 'cl-rodcar', 'branch': '9.0'},
         {'usr': 'jobiols', 'repo': 'odoo-addons', 'branch': '9.0'},
-        {'usr': 'Vauxoo', 'repo': 'addons-vauxoo', 'branch': '9.0'},
+        #{'usr': 'Vauxoo', 'repo': 'addons-vauxoo', 'branch': '9.0'},
         #        {'usr': 'JayVora-SerpentCS', 'repo': 'SerpentCS_Contributions', 'branch': '9.0'},
 
     ],
