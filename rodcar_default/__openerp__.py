@@ -19,7 +19,7 @@
 #
 # -----------------------------------------------------------------------------
 {
-    'name': 'Rodcar',
+    'name': 'rodcar',
     'version': '9.0.0.0.0',
     'license': 'Other OSI approved licence',
     'category': 'Tools',
@@ -62,6 +62,7 @@
         {'name': 'aeroo', 'usr': 'jobiols', 'img': 'aeroo-docs'},
         {'name': 'odoo', 'usr': 'jobiols', 'img': 'odoo-jeo', 'ver': '9.0'},
         {'name': 'postgres', 'usr': 'postgres', 'ver': '9.5'},
+        {'name': 'backup', 'usr': 'jobiols', 'img': 'backup'},
         {'name': 'nginx', 'usr': 'nginx', 'ver': 'latest'}
     ]
 }
